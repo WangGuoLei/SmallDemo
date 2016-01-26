@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA37C861C5721C700169F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37C851C5721C700169F03 /* main.m */; };
+		FAA37C891C5721C700169F03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37C881C5721C700169F03 /* AppDelegate.m */; };
+		FAA37C8C1C5721C700169F03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37C8B1C5721C700169F03 /* ViewController.m */; };
+		FAA37C8F1C5721C700169F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA37C8D1C5721C700169F03 /* Main.storyboard */; };
+		FAA37C911C5721C700169F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA37C901C5721C700169F03 /* Assets.xcassets */; };
+		FAA37C941C5721C700169F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA37C921C5721C700169F03 /* LaunchScreen.storyboard */; };
+		FAA37C9F1C5721C700169F03 /* WGLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37C9E1C5721C700169F03 /* WGLDemoTests.m */; };
+		FAA37CAA1C5721C700169F03 /* WGLDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37CA91C5721C700169F03 /* WGLDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA37C9B1C5721C700169F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA37C791C5721C700169F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA37C801C5721C700169F03;
+			remoteInfo = WGLDemo;
+		};
+		FAA37CA61C5721C700169F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA37C791C5721C700169F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA37C801C5721C700169F03;
+			remoteInfo = WGLDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA37C811C5721C700169F03 /* WGLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA37C851C5721C700169F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA37C871C5721C700169F03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA37C881C5721C700169F03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA37C8A1C5721C700169F03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAA37C8B1C5721C700169F03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAA37C8E1C5721C700169F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA37C901C5721C700169F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA37C931C5721C700169F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA37C951C5721C700169F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA37C9A1C5721C700169F03 /* WGLDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGLDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA37C9E1C5721C700169F03 /* WGLDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLDemoTests.m; sourceTree = "<group>"; };
+		FAA37CA01C5721C700169F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA37CA51C5721C700169F03 /* WGLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA37CA91C5721C700169F03 /* WGLDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLDemoUITests.m; sourceTree = "<group>"; };
+		FAA37CAB1C5721C700169F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA37C7E1C5721C700169F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA37C971C5721C700169F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA37CA21C5721C700169F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA37C781C5721C700169F03 = {
+			isa = PBXGroup;
+			children = (
+				FAA37C831C5721C700169F03 /* WGLDemo */,
+				FAA37C9D1C5721C700169F03 /* WGLDemoTests */,
+				FAA37CA81C5721C700169F03 /* WGLDemoUITests */,
+				FAA37C821C5721C700169F03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA37C821C5721C700169F03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA37C811C5721C700169F03 /* WGLDemo.app */,
+				FAA37C9A1C5721C700169F03 /* WGLDemoTests.xctest */,
+				FAA37CA51C5721C700169F03 /* WGLDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA37C831C5721C700169F03 /* WGLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAA37C871C5721C700169F03 /* AppDelegate.h */,
+				FAA37C881C5721C700169F03 /* AppDelegate.m */,
+				FAA37C8A1C5721C700169F03 /* ViewController.h */,
+				FAA37C8B1C5721C700169F03 /* ViewController.m */,
+				FAA37C8D1C5721C700169F03 /* Main.storyboard */,
+				FAA37C901C5721C700169F03 /* Assets.xcassets */,
+				FAA37C921C5721C700169F03 /* LaunchScreen.storyboard */,
+				FAA37C951C5721C700169F03 /* Info.plist */,
+				FAA37C841C5721C700169F03 /* Supporting Files */,
+			);
+			path = WGLDemo;
+			sourceTree = "<group>";
+		};
+		FAA37C841C5721C700169F03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA37C851C5721C700169F03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA37C9D1C5721C700169F03 /* WGLDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA37C9E1C5721C700169F03 /* WGLDemoTests.m */,
+				FAA37CA01C5721C700169F03 /* Info.plist */,
+			);
+			path = WGLDemoTests;
+			sourceTree = "<group>";
+		};
+		FAA37CA81C5721C700169F03 /* WGLDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA37CA91C5721C700169F03 /* WGLDemoUITests.m */,
+				FAA37CAB1C5721C700169F03 /* Info.plist */,
+			);
+			path = WGLDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA37C801C5721C700169F03 /* WGLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA37CAE1C5721C700169F03 /* Build configuration list for PBXNativeTarget "WGLDemo" */;
+			buildPhases = (
+				FAA37C7D1C5721C700169F03 /* Sources */,
+				FAA37C7E1C5721C700169F03 /* Frameworks */,
+				FAA37C7F1C5721C700169F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGLDemo;
+			productName = WGLDemo;
+			productReference = FAA37C811C5721C700169F03 /* WGLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA37C991C5721C700169F03 /* WGLDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA37CB11C5721C700169F03 /* Build configuration list for PBXNativeTarget "WGLDemoTests" */;
+			buildPhases = (
+				FAA37C961C5721C700169F03 /* Sources */,
+				FAA37C971C5721C700169F03 /* Frameworks */,
+				FAA37C981C5721C700169F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA37C9C1C5721C700169F03 /* PBXTargetDependency */,
+			);
+			name = WGLDemoTests;
+			productName = WGLDemoTests;
+			productReference = FAA37C9A1C5721C700169F03 /* WGLDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA37CA41C5721C700169F03 /* WGLDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA37CB41C5721C700169F03 /* Build configuration list for PBXNativeTarget "WGLDemoUITests" */;
+			buildPhases = (
+				FAA37CA11C5721C700169F03 /* Sources */,
+				FAA37CA21C5721C700169F03 /* Frameworks */,
+				FAA37CA31C5721C700169F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA37CA71C5721C700169F03 /* PBXTargetDependency */,
+			);
+			name = WGLDemoUITests;
+			productName = WGLDemoUITests;
+			productReference = FAA37CA51C5721C700169F03 /* WGLDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA37C791C5721C700169F03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王国磊";
+				TargetAttributes = {
+					FAA37C801C5721C700169F03 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FAA37C991C5721C700169F03 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAA37C801C5721C700169F03;
+					};
+					FAA37CA41C5721C700169F03 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAA37C801C5721C700169F03;
+					};
+				};
+			};
+			buildConfigurationList = FAA37C7C1C5721C700169F03 /* Build configuration list for PBXProject "WGLDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA37C781C5721C700169F03;
+			productRefGroup = FAA37C821C5721C700169F03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA37C801C5721C700169F03 /* WGLDemo */,
+				FAA37C991C5721C700169F03 /* WGLDemoTests */,
+				FAA37CA41C5721C700169F03 /* WGLDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA37C7F1C5721C700169F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA37C941C5721C700169F03 /* LaunchScreen.storyboard in Resources */,
+				FAA37C911C5721C700169F03 /* Assets.xcassets in Resources */,
+				FAA37C8F1C5721C700169F03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA37C981C5721C700169F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA37CA31C5721C700169F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA37C7D1C5721C700169F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA37C8C1C5721C700169F03 /* ViewController.m in Sources */,
+				FAA37C891C5721C700169F03 /* AppDelegate.m in Sources */,
+				FAA37C861C5721C700169F03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA37C961C5721C700169F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA37C9F1C5721C700169F03 /* WGLDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA37CA11C5721C700169F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA37CAA1C5721C700169F03 /* WGLDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA37C9C1C5721C700169F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA37C801C5721C700169F03 /* WGLDemo */;
+			targetProxy = FAA37C9B1C5721C700169F03 /* PBXContainerItemProxy */;
+		};
+		FAA37CA71C5721C700169F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA37C801C5721C700169F03 /* WGLDemo */;
+			targetProxy = FAA37CA61C5721C700169F03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA37C8D1C5721C700169F03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA37C8E1C5721C700169F03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA37C921C5721C700169F03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA37C931C5721C700169F03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA37CAC1C5721C700169F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA37CAD1C5721C700169F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA37CAF1C5721C700169F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WGLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WXDL.WGLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA37CB01C5721C700169F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WGLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WXDL.WGLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA37CB21C5721C700169F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WGLDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WXDL.WGLDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGLDemo.app/WGLDemo";
+			};
+			name = Debug;
+		};
+		FAA37CB31C5721C700169F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WGLDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WXDL.WGLDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGLDemo.app/WGLDemo";
+			};
+			name = Release;
+		};
+		FAA37CB51C5721C700169F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WGLDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WXDL.WGLDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WGLDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAA37CB61C5721C700169F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WGLDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WXDL.WGLDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WGLDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA37C7C1C5721C700169F03 /* Build configuration list for PBXProject "WGLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA37CAC1C5721C700169F03 /* Debug */,
+				FAA37CAD1C5721C700169F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA37CAE1C5721C700169F03 /* Build configuration list for PBXNativeTarget "WGLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA37CAF1C5721C700169F03 /* Debug */,
+				FAA37CB01C5721C700169F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA37CB11C5721C700169F03 /* Build configuration list for PBXNativeTarget "WGLDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA37CB21C5721C700169F03 /* Debug */,
+				FAA37CB31C5721C700169F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA37CB41C5721C700169F03 /* Build configuration list for PBXNativeTarget "WGLDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA37CB51C5721C700169F03 /* Debug */,
+				FAA37CB61C5721C700169F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA37C791C5721C700169F03 /* Project object */;
+}
