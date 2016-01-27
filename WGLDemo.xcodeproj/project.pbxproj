@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA9EA0D41C5859BA0090BCA5 /* Two_TableViews.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D31C5859BA0090BCA5 /* Two_TableViews.m */; };
+		FA9EA0D51C5859BA0090BCA5 /* Two_TableViews.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D31C5859BA0090BCA5 /* Two_TableViews.m */; };
+		FA9EA0D81C5863D60090BCA5 /* TableView_Two.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D71C5863D60090BCA5 /* TableView_Two.m */; };
+		FA9EA0D91C5863D60090BCA5 /* TableView_Two.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D71C5863D60090BCA5 /* TableView_Two.m */; };
 		FAA37C861C5721C700169F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37C851C5721C700169F03 /* main.m */; };
 		FAA37C891C5721C700169F03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37C881C5721C700169F03 /* AppDelegate.m */; };
 		FAA37C8C1C5721C700169F03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37C8B1C5721C700169F03 /* ViewController.m */; };
@@ -15,6 +19,8 @@
 		FAA37C941C5721C700169F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA37C921C5721C700169F03 /* LaunchScreen.storyboard */; };
 		FAA37C9F1C5721C700169F03 /* WGLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37C9E1C5721C700169F03 /* WGLDemoTests.m */; };
 		FAA37CAA1C5721C700169F03 /* WGLDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37CA91C5721C700169F03 /* WGLDemoUITests.m */; };
+		FAA37CBF1C574E0500169F03 /* DataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAA37CBE1C574E0500169F03 /* DataSource.plist */; };
+		FAA37CC01C574E0500169F03 /* DataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAA37CBE1C574E0500169F03 /* DataSource.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA9EA0D21C5859BA0090BCA5 /* Two_TableViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Two_TableViews.h; sourceTree = "<group>"; };
+		FA9EA0D31C5859BA0090BCA5 /* Two_TableViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Two_TableViews.m; sourceTree = "<group>"; };
+		FA9EA0D61C5863D60090BCA5 /* TableView_Two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView_Two.h; sourceTree = "<group>"; };
+		FA9EA0D71C5863D60090BCA5 /* TableView_Two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView_Two.m; sourceTree = "<group>"; };
 		FAA37C811C5721C700169F03 /* WGLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA37C851C5721C700169F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAA37C871C5721C700169F03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,7 @@
 		FAA37CA51C5721C700169F03 /* WGLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA37CA91C5721C700169F03 /* WGLDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLDemoUITests.m; sourceTree = "<group>"; };
 		FAA37CAB1C5721C700169F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA37CBE1C574E0500169F03 /* DataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataSource.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +116,15 @@
 				FAA37C881C5721C700169F03 /* AppDelegate.m */,
 				FAA37C8A1C5721C700169F03 /* ViewController.h */,
 				FAA37C8B1C5721C700169F03 /* ViewController.m */,
+				FA9EA0D21C5859BA0090BCA5 /* Two_TableViews.h */,
+				FA9EA0D31C5859BA0090BCA5 /* Two_TableViews.m */,
+				FA9EA0D61C5863D60090BCA5 /* TableView_Two.h */,
+				FA9EA0D71C5863D60090BCA5 /* TableView_Two.m */,
 				FAA37C8D1C5721C700169F03 /* Main.storyboard */,
 				FAA37C901C5721C700169F03 /* Assets.xcassets */,
 				FAA37C921C5721C700169F03 /* LaunchScreen.storyboard */,
 				FAA37C951C5721C700169F03 /* Info.plist */,
+				FAA37CBE1C574E0500169F03 /* DataSource.plist */,
 				FAA37C841C5721C700169F03 /* Supporting Files */,
 			);
 			path = WGLDemo;
@@ -244,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA37C941C5721C700169F03 /* LaunchScreen.storyboard in Resources */,
+				FAA37CBF1C574E0500169F03 /* DataSource.plist in Resources */,
 				FAA37C911C5721C700169F03 /* Assets.xcassets in Resources */,
 				FAA37C8F1C5721C700169F03 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA37CC01C574E0500169F03 /* DataSource.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +290,9 @@
 			files = (
 				FAA37C8C1C5721C700169F03 /* ViewController.m in Sources */,
 				FAA37C891C5721C700169F03 /* AppDelegate.m in Sources */,
+				FA9EA0D41C5859BA0090BCA5 /* Two_TableViews.m in Sources */,
 				FAA37C861C5721C700169F03 /* main.m in Sources */,
+				FA9EA0D81C5863D60090BCA5 /* TableView_Two.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9EA0D51C5859BA0090BCA5 /* Two_TableViews.m in Sources */,
+				FA9EA0D91C5863D60090BCA5 /* TableView_Two.m in Sources */,
 				FAA37C9F1C5721C700169F03 /* WGLDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WGLDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WXDL.WGLDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WGLDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WXDL.WGLDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +520,7 @@
 				FAA37CB01C5721C700169F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA37CB11C5721C700169F03 /* Build configuration list for PBXNativeTarget "WGLDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				FAA37CB31C5721C700169F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA37CB41C5721C700169F03 /* Build configuration list for PBXNativeTarget "WGLDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				FAA37CB61C5721C700169F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
