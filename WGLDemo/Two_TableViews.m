@@ -50,10 +50,11 @@
     /**
      *  市列表
      */
-    _rightTableView = [[UITableView alloc] initWithFrame:CGRectMake(_leftTableView.frame.size.width, 64, WIDTH - _leftTableView.frame.size.width, HEIGHT) style:UITableViewStylePlain];
+    _rightTableView = [[UITableView alloc] initWithFrame:CGRectMake(_leftTableView.frame.size.width, 64, WIDTH - _leftTableView.frame.size.width, HEIGHT-64) style:UITableViewStylePlain];
     _rightTableView.delegate = self;
     _rightTableView.dataSource = self;
     _rightTableView.tableFooterView = [[UIView alloc]init];
+    _rightTableView.showsVerticalScrollIndicator = NO;
     [self.view addSubview:_rightTableView];
 }
 

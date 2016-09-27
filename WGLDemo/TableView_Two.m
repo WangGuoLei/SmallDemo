@@ -55,6 +55,7 @@
     _rightTableView = [[UITableView alloc] initWithFrame:CGRectMake(_leftTableView.frame.size.width, 64, WIDTH - _leftTableView.frame.size.width, HEIGHT) style:UITableViewStylePlain];
     _rightTableView.delegate = self;
     _rightTableView.dataSource = self;
+    _rightTableView.showsVerticalScrollIndicator = NO;
     _rightTableView.tableFooterView = [[UIView alloc]init];
     [self.view addSubview:_rightTableView];
 }
@@ -95,7 +96,6 @@
         [alert show];
         [tableView deselectRowAtIndexPath:indexPath animated:YES];
     }
-    
 }
 
 - (void)didReceiveMemoryWarning {
